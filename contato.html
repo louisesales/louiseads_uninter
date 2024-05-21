@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Louise Silva (4237613) - Trabalho da disciplina de Fundamentos de Programação WEB</title>
+    <meta charset="utf-8">
+
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <button onclick="voltar();">Voltar</button>
+
+    <div class="card" id="contato">
+        <div class="tools">
+            <div class="dots">
+                <span class="red dot"></span>
+            </div>
+            <div class="dots">
+                <span class="yellow dot"></span>
+            </div>
+            <div class="dots">
+                <span class="green dot"></span>
+            </div>
+        </div>
+        <div class="card_content">
+
+            <article>
+                <section>
+                    <h3>Contato</h3>
+                </section>
+
+                <span>Para entrar em contato, utilize o formulário abaixo:</span>
+                <form>
+                    <div>
+                        <label>Nome*: </label>
+                        <input type="text" maxlength="500" placeholder="insira seu nome" required />
+                    </div>
+
+                    <div>
+                        <label>E-mail*: </label>
+                        <input type="email" maxlength="500" placeholder="insira seu e-mail" required />
+                    </div>
+
+                    <div>
+                        <label>Mensagem*: </label>
+                        <textarea maxlength="50000" placeholder="digite sua mensagem..." required rows="3"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </article>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<!--JS-->
+<script type="text/javascript">
+
+    function voltar() {
+        window.location.href = 'index.html';
+    }
+</script>

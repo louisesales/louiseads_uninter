@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Louise Silva (4237613) - Trabalho da disciplina de Fundamentos de Programação WEB</title>
+    <meta charset="utf-8">
+
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet" />
+
+    <!--ICONS-->
+    <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Portfólio pessoal</h1>
+        </header>
+        <div id="left-wrap">
+
+            <div class="card">
+                <div class="tools">
+                    <div class="dots">
+                        <span class="red dot"></span>
+                    </div>
+                    <div class="dots">
+                        <span class="yellow dot"></span>
+                    </div>
+                    <div class="dots">
+                        <span class="green dot"></span>
+                    </div>
+                </div>
+                <div class="card_content">
+
+                    <article id="inicio">
+                        <section>
+                            <h3>Bem-vindo!</h3>
+                            <p>Selecione uma das opções do menu:</p>
+                        </section>
+
+                        <nav>
+                            <a href="/sobre.html"><i class="iconsax" icon-name="user-1-square"></i>Sobre mim</a><br />
+                            <a href="/formacao.html"><i class="iconsax" icon-name="teacher"></i>Minha Formação</a><br />
+                            <a href="/portfolio.html"><i class="iconsax" icon-name="code-circle"></i>Meu Portfólio</a><br /><br />
+                            <button id="contato" onclick="contato()">Entre em contato</button>
+                        </nav>
+
+                    </article>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h3>Louise Silva</h3>
+        </footer>
+    </main>
+</body>
+
+</html>
+
+<!--JS-->
+<!--ao invés de trazer js em um arquivo separado, traz no próprio html-->
+<script type="text/javascript">
+    function contato() {
+        window.location.assign('contato.html');
+    }
+</script>
